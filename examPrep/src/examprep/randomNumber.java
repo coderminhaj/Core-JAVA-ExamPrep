@@ -6,7 +6,7 @@ import java.util.Arrays;
 
 public class randomNumber {
     public static void main(String[] args) {
-       int[] arr = new int[10];
+       int[] arr = new int[5];
        
     for (int i = 0; i<arr.length; i++ ){
            double rand = Math.round(Math.random()*100);
@@ -21,6 +21,7 @@ public class randomNumber {
     for (int m = 0; m<arr.length; m++){
         System.out.println("The Random Numbers For " + m+ " position is : "+arr[m]);
     }
+        System.out.println("Your random Numbers are: ");
        System.out.println(Arrays.toString(arr)); 
     }
     

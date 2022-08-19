@@ -6,7 +6,7 @@ public class primeNumberMeth2 {
     // Prime number method 2
 
     public static void main(String[] args) {
-        int num = 4;
+        int num = 15;
         int temp = 0;
 
         // we can use (int i = 2; i <= num-1 ; i++) or (int i = 2; i < num ; i++) both are same
